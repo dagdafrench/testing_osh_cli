@@ -65,8 +65,8 @@ before_install:
 install:
 before_script:
 script:
-- if [ "$TO_TEST" = "e2e" ]; then make build; test/run.sh ; fi
-- if [ "$TO_TEST" = "rest" ]; then rest/tools/oshinko-test.sh -t unit; rest/tools/oshinko-test.sh -t client-local ; fi
+- if [ "$TO_TEST" = "e2e" ]; echo "e2e tests" ; fi
+- if [ "$TO_TEST" = "rest" ]; echo "Rest tests" ; fi
 notifications:
  email:
    on_success: never
