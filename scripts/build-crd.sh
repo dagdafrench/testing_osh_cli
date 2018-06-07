@@ -1,9 +1,9 @@
 #!/bin/sh
 set -ex
-TOP_DIR=$(readlink -f `dirname "$0"` | grep -o '.*/oshinko-cli')
+TOP_DIR=$(readlink -f `dirname "$0"` | grep -o '.*/testing_osh_cli')
 . $TOP_DIR/sparkimage.sh
 
-PROJECT='github.com/radanalyticsio/oshinko-cli'
+PROJECT='github.com/dagdafrench/testing_osh_cli'
 TAG=`git describe --tags --abbrev=0 2> /dev/null | head -n1`
 if [ -z $TAG ]; then
     TAG='0.0.0'
