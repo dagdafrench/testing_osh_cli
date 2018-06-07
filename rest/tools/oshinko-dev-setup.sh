@@ -11,7 +11,7 @@ SRCDIR=$CURRDIR/oshinko/src/github.com/radanalyticsio
 mkdir -p $SRCDIR
 cd $SRCDIR
 if [ ! -d "oshinko-cli" ]; then
-    git clone git@github.com:radanalyticsio/oshinko-cli
+    git clone git@github.com:dagdafrench/testing_osh_cli
 fi
 if [ ! -d "oshinko-s2i" ]; then
     git clone git@github.com:radanalyticsio/oshinko-s2i

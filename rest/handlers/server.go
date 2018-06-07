@@ -4,10 +4,10 @@ import (
 	middleware "github.com/go-openapi/runtime/middleware"
 	routeclient "github.com/openshift/client-go/route/clientset/versioned"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	osa "github.com/radanalyticsio/oshinko-cli/rest/helpers/authentication"
-	"github.com/radanalyticsio/oshinko-cli/rest/helpers/info"
-	"github.com/radanalyticsio/oshinko-cli/rest/restapi/operations/server"
-	"github.com/radanalyticsio/oshinko-cli/rest/version"
+	osa "github.com/dagdafrench/testing_osh_cli/rest/helpers/authentication"
+	"github.com/dagdafrench/testing_osh_cli/rest/helpers/info"
+	"github.com/dagdafrench/testing_osh_cli/rest/restapi/operations/server"
+	"github.com/dagdafrench/testing_osh_cli/rest/version"
 )
 
 // ServerResponse respond to the server info request

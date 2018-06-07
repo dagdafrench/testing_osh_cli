@@ -3,8 +3,8 @@ package clienttest
 import (
 	check "gopkg.in/check.v1"
 
-	"github.com/radanalyticsio/oshinko-cli/rest/version"
-	"github.com/radanalyticsio/oshinko-cli/rest/helpers/info"
+	"github.com/dagdafrench/testing_osh_cli/rest/version"
+	"github.com/dagdafrench/testing_osh_cli/rest/helpers/info"
 	"os"
 )
 

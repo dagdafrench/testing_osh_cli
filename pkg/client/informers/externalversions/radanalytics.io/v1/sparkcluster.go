@@ -20,10 +20,10 @@ limitations under the License.
 package v1
 
 import (
-	radanalytics_io_v1 "github.com/radanalyticsio/oshinko-cli/pkg/apis/radanalytics.io/v1"
-	versioned "github.com/radanalyticsio/oshinko-cli/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/radanalyticsio/oshinko-cli/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/radanalyticsio/oshinko-cli/pkg/client/listers/radanalytics.io/v1"
+	radanalytics_io_v1 "github.com/dagdafrench/testing_osh_cli/pkg/apis/radanalytics.io/v1"
+	versioned "github.com/dagdafrench/testing_osh_cli/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/dagdafrench/testing_osh_cli/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/dagdafrench/testing_osh_cli/pkg/client/listers/radanalytics.io/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

@@ -5,7 +5,7 @@ import (
 	kapi "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	"github.com/radanalyticsio/oshinko-cli/core/clusters/services"
+	"github.com/dagdafrench/testing_osh_cli/core/clusters/services"
 )
 
 func (s *OshinkoUnitTestSuite) TestService(c *check.C) {

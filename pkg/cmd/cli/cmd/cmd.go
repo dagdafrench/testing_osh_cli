@@ -6,9 +6,9 @@ import (
 	"strconv"
 
 	osclientcmd "github.com/openshift/origin/pkg/oc/cli/util/clientcmd"
-	"github.com/radanalyticsio/oshinko-cli/core/clusters"
-	"github.com/radanalyticsio/oshinko-cli/pkg/cmd/cli/auth"
-	"github.com/radanalyticsio/oshinko-cli/version"
+	"github.com/dagdafrench/testing_osh_cli/core/clusters"
+	"github.com/dagdafrench/testing_osh_cli/pkg/cmd/cli/auth"
+	"github.com/dagdafrench/testing_osh_cli/version"
 	"github.com/spf13/cobra"
 	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
 	kcmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"

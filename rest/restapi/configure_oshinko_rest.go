@@ -10,14 +10,14 @@ import (
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/runtime"
 
-	"github.com/radanalyticsio/oshinko-cli/rest/handlers"
-	oe "github.com/radanalyticsio/oshinko-cli/rest/helpers/errors"
-	"github.com/radanalyticsio/oshinko-cli/rest/helpers/flags"
-	"github.com/radanalyticsio/oshinko-cli/rest/helpers/logging"
-	"github.com/radanalyticsio/oshinko-cli/rest/restapi/operations"
-	"github.com/radanalyticsio/oshinko-cli/rest/restapi/operations/clusters"
-	"github.com/radanalyticsio/oshinko-cli/rest/restapi/operations/server"
-	"github.com/radanalyticsio/oshinko-cli/rest/version"
+	"github.com/dagdafrench/testing_osh_cli/rest/handlers"
+	oe "github.com/dagdafrench/testing_osh_cli/rest/helpers/errors"
+	"github.com/dagdafrench/testing_osh_cli/rest/helpers/flags"
+	"github.com/dagdafrench/testing_osh_cli/rest/helpers/logging"
+	"github.com/dagdafrench/testing_osh_cli/rest/restapi/operations"
+	"github.com/dagdafrench/testing_osh_cli/rest/restapi/operations/clusters"
+	"github.com/dagdafrench/testing_osh_cli/rest/restapi/operations/server"
+	"github.com/dagdafrench/testing_osh_cli/rest/version"
 	"k8s.io/apiserver/pkg/util/logs"
 )
 

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/radanalyticsio/oshinko-cli/pkg/cmd/cli"
+	"github.com/dagdafrench/testing_osh_cli/pkg/cmd/cli"
 	//"github.com/openshift/origin/pkg/cmd/util/serviceability"
 
 	// install all APIs

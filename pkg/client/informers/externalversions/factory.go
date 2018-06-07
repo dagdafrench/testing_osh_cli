@@ -20,9 +20,9 @@ limitations under the License.
 package externalversions
 
 import (
-	versioned "github.com/radanalyticsio/oshinko-cli/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/radanalyticsio/oshinko-cli/pkg/client/informers/externalversions/internalinterfaces"
-	radanalytics_io "github.com/radanalyticsio/oshinko-cli/pkg/client/informers/externalversions/radanalytics.io"
+	versioned "github.com/dagdafrench/testing_osh_cli/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/dagdafrench/testing_osh_cli/pkg/client/informers/externalversions/internalinterfaces"
+	radanalytics_io "github.com/dagdafrench/testing_osh_cli/pkg/client/informers/externalversions/radanalytics.io"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

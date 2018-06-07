@@ -8,7 +8,7 @@ import (
 
 	"k8s.io/apiserver/pkg/util/logs"
 
-	"github.com/radanalyticsio/oshinko-cli/pkg/cmd/cli"
+	"github.com/dagdafrench/testing_osh_cli/pkg/cmd/cli"
 	// install all APIs
 	_ "k8s.io/kubernetes/pkg/apis/core/install"
 	_ "k8s.io/kubernetes/pkg/apis/autoscaling/install"

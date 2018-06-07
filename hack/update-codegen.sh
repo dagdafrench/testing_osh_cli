@@ -27,7 +27,7 @@ CODEGEN_PKG=${CODEGEN_PKG:-$(cd ${SCRIPT_ROOT}; ls -d -1 ./vendor/k8s.io/code-ge
 #                  instead of the $GOPATH directly. For normal projects this can be dropped.
 # "deepcopy,client,informer,lister"
 ${CODEGEN_PKG}/generate-groups.sh all  \
-  github.com/radanalyticsio/oshinko-cli/pkg/client github.com/radanalyticsio/oshinko-cli/pkg/apis \
+  github.com/dagdafrench/testing_osh_cli/pkg/client github.com/dagdafrench/testing_osh_cli/pkg/apis \
   radanalytics.io:v1 \
   --go-header-file ${SCRIPT_ROOT}/hack/boilerplate.txt
 

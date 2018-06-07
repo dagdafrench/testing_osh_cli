@@ -5,8 +5,8 @@ import (
 	kapi "k8s.io/api/core/v1"
 
 	api  "github.com/openshift/api/apps/v1"
-	"github.com/radanalyticsio/oshinko-cli/core/clusters/deploymentconfigs"
-	"github.com/radanalyticsio/oshinko-cli/core/clusters/podtemplates"
+	"github.com/dagdafrench/testing_osh_cli/core/clusters/deploymentconfigs"
+	"github.com/dagdafrench/testing_osh_cli/core/clusters/podtemplates"
 )
 
 func (s *OshinkoUnitTestSuite) TestDeploymentConfig(c *check.C) {

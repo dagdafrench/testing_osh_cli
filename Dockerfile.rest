@@ -4,12 +4,12 @@ FROM centos:latest
 
 RUN yum -y install make golang git && yum clean all
 
-ADD . /go/src/github.com/radanalyticsio/oshinko-cli
+ADD . /go/src/github.com/dagdafrench/testing_osh_cli
 
 ENV GOPATH /go
-WORKDIR /go/src/github.com/radanalyticsio/oshinko-cli/rest
+WORKDIR /go/src/github.com/dagdafrench/testing_osh_cli/rest
 RUN make install
 
 RUN chmod a+rwX -R .
 
-CMD /go/src/github.com/radanalyticsio/oshinko-cli/rest/tools/start_server.sh
+CMD /go/src/github.com/dagdafrench/testing_osh_cli/rest/tools/start_server.sh

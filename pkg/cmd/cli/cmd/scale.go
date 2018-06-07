@@ -8,8 +8,8 @@ import (
 
 	//"github.com/openshift/origin/pkg/cmd/util/clientcmd"
 	"github.com/openshift/origin/pkg/oc/cli/util/clientcmd"
-	"github.com/radanalyticsio/oshinko-cli/core/clusters"
-	"github.com/radanalyticsio/oshinko-cli/pkg/cmd/cli/auth"
+	"github.com/dagdafrench/testing_osh_cli/core/clusters"
+	"github.com/dagdafrench/testing_osh_cli/pkg/cmd/cli/auth"
 )
 
 func NewCmdScale(fullName string, f *clientcmd.Factory, in io.Reader, out io.Writer) *cobra.Command {

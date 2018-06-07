@@ -14,10 +14,10 @@ import (
 	flags "github.com/jessevdk/go-flags"
 	graceful "github.com/tylerb/graceful"
 
-	oshinkoFlags "github.com/radanalyticsio/oshinko-cli/rest/helpers/flags"
-	"github.com/radanalyticsio/oshinko-cli/rest/helpers/info"
-	"github.com/radanalyticsio/oshinko-cli/rest/restapi/operations"
-	"github.com/radanalyticsio/oshinko-cli/rest/version"
+	oshinkoFlags "github.com/dagdafrench/testing_osh_cli/rest/helpers/flags"
+	"github.com/dagdafrench/testing_osh_cli/rest/helpers/info"
+	"github.com/dagdafrench/testing_osh_cli/rest/restapi/operations"
+	"github.com/dagdafrench/testing_osh_cli/rest/version"
 )
 
 const (

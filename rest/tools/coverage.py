@@ -16,7 +16,7 @@ import re
 import subprocess
 
 
-oshinko_repo = 'github.com/radanalyticsio/oshinko-cli/rest/'
+oshinko_repo = 'github.com/dagdafrench/testing_osh_cli/rest/'
 oshinko_test_package = oshinko_repo + 'tests/unit'
 coverage_packages = [
     'handlers',

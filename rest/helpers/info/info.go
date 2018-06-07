@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"github.com/radanalyticsio/oshinko-cli/rest/version"
+	"github.com/dagdafrench/testing_osh_cli/rest/version"
 )
 
 const CA_PATH = "/var/run/secrets/kubernetes.io/serviceaccount/ca.crt"

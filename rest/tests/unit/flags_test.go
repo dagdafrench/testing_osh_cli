@@ -6,7 +6,7 @@ import (
 	goflags "github.com/jessevdk/go-flags"
 	"gopkg.in/check.v1"
 
-	"github.com/radanalyticsio/oshinko-cli/rest/helpers/flags"
+	"github.com/dagdafrench/testing_osh_cli/rest/helpers/flags"
 )
 
 func getConfiguredParser() (parser *goflags.Parser) {

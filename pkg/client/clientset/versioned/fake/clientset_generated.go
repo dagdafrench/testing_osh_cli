@@ -18,9 +18,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/radanalyticsio/oshinko-cli/pkg/client/clientset/versioned"
-	radanalyticsv1 "github.com/radanalyticsio/oshinko-cli/pkg/client/clientset/versioned/typed/radanalytics.io/v1"
-	fakeradanalyticsv1 "github.com/radanalyticsio/oshinko-cli/pkg/client/clientset/versioned/typed/radanalytics.io/v1/fake"
+	clientset "github.com/dagdafrench/testing_osh_cli/pkg/client/clientset/versioned"
+	radanalyticsv1 "github.com/dagdafrench/testing_osh_cli/pkg/client/clientset/versioned/typed/radanalytics.io/v1"
+	fakeradanalyticsv1 "github.com/dagdafrench/testing_osh_cli/pkg/client/clientset/versioned/typed/radanalytics.io/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

@@ -20,8 +20,8 @@ limitations under the License.
 package radanalytics
 
 import (
-	internalinterfaces "github.com/radanalyticsio/oshinko-cli/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/radanalyticsio/oshinko-cli/pkg/client/informers/externalversions/radanalytics.io/v1"
+	internalinterfaces "github.com/dagdafrench/testing_osh_cli/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/dagdafrench/testing_osh_cli/pkg/client/informers/externalversions/radanalytics.io/v1"
 )
 
 // Interface provides access to each of this group's versions.

@@ -9,9 +9,9 @@ RUN yum install -y golang make git && \
     yum clean all
 
 ENV GOPATH /go
-ADD . /go/src/github.com/radanalyticsio/oshinko-cli
+ADD . /go/src/github.com/dagdafrench/testing_osh_cli
 
-RUN cd /go/src/github.com/radanalyticsio/oshinko-cli && \
+RUN cd /go/src/github.com/dagdafrench/testing_osh_cli && \
     make build && \
     cp _output/oshinko-cli /opt && \
     chown -R 1001:1001 /opt/oshinko-cli && \

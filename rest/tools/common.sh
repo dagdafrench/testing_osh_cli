@@ -16,4 +16,4 @@ fi
 
 APP=oshinko-rest-server
 
-TAG_APPNAME_FLAGS="-X github.com/radanalyticsio/oshinko-cli/rest/version.gitTag=$TAG -X github.com/radanalyticsio/oshinko-cli/rest/version.appName=$APP -X github.com/radanalyticsio/oshinko-cli/rest/version.sparkImage=$SPARK_IMAGE"
+TAG_APPNAME_FLAGS="-X github.com/dagdafrench/testing_osh_cli/rest/version.gitTag=$TAG -X github.com/dagdafrench/testing_osh_cli/rest/version.appName=$APP -X github.com/dagdafrench/testing_osh_cli/rest/version.sparkImage=$SPARK_IMAGE"

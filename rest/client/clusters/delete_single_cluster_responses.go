@@ -11,7 +11,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	"github.com/radanalyticsio/oshinko-cli/rest/models"
+	"github.com/dagdafrench/testing_osh_cli/rest/models"
 )
 
 // DeleteSingleClusterReader is a Reader for the DeleteSingleCluster structure.

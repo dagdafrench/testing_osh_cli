@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	ocon "github.com/radanalyticsio/oshinko-cli/core/clusters/containers"
-	odc "github.com/radanalyticsio/oshinko-cli/core/clusters/deploymentconfigs"
-	opt "github.com/radanalyticsio/oshinko-cli/core/clusters/podtemplates"
-	"github.com/radanalyticsio/oshinko-cli/core/clusters/probes"
-	ort "github.com/radanalyticsio/oshinko-cli/core/clusters/routes"
-	osv "github.com/radanalyticsio/oshinko-cli/core/clusters/services"
+	ocon "github.com/dagdafrench/testing_osh_cli/core/clusters/containers"
+	odc "github.com/dagdafrench/testing_osh_cli/core/clusters/deploymentconfigs"
+	opt "github.com/dagdafrench/testing_osh_cli/core/clusters/podtemplates"
+	"github.com/dagdafrench/testing_osh_cli/core/clusters/probes"
+	ort "github.com/dagdafrench/testing_osh_cli/core/clusters/routes"
+	osv "github.com/dagdafrench/testing_osh_cli/core/clusters/services"
 
 	appsapi "github.com/openshift/api/apps/v1"
 	dclient "github.com/openshift/client-go/apps/clientset/versioned"

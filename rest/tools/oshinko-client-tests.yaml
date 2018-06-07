@@ -26,9 +26,9 @@ objects:
       dockerfile: |-
         FROM centos:latest
         RUN yum -y install golang git && yum clean all
-        ADD . /go/src/github.com/radanalyticsio/oshinko-cli/
+        ADD . /go/src/github.com/dagdafrench/testing_osh_cli/
         ENV GOPATH /go
-        WORKDIR /go/src/github.com/radanalyticsio/oshinko-cli/rest
+        WORKDIR /go/src/github.com/dagdafrench/testing_osh_cli/rest
         RUN chmod a+rwX -R .
         RUN go get gopkg.in/check.v1
         ENTRYPOINT tools/oshinko-test.sh -t client-deployed
@@ -83,7 +83,7 @@ parameters:
 - name: SOURCE_REPO
   description: |-
     Source URI to use for building the oshinko-rest client tests.
-  value: https://github.com/radanalyticsio/oshinko-cli/rest
+  value: https://github.com/dagdafrench/testing_osh_cli/rest
 - name: SOURCE_REF
   description: |-
     Branch or commit of the source repository to use for building the

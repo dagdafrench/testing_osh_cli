@@ -11,7 +11,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/radanalyticsio/oshinko-cli/rest/models"
+	"github.com/dagdafrench/testing_osh_cli/rest/models"
 )
 
 // NewCreateClusterParams creates a new CreateClusterParams object

@@ -6,8 +6,8 @@ import (
 
 	osclientcmd "github.com/openshift/origin/pkg/oc/cli/util/clientcmd"
 	//kclientcmd "k8s.io/client-go/tools/clientcmd"
-	"github.com/radanalyticsio/oshinko-cli/core/clusters"
-	"github.com/radanalyticsio/oshinko-cli/pkg/cmd/cli/auth"
+	"github.com/dagdafrench/testing_osh_cli/core/clusters"
+	"github.com/dagdafrench/testing_osh_cli/pkg/cmd/cli/auth"
 	"github.com/spf13/cobra"
 
 	"os"

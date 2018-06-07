@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-openapi/runtime"
 
-	"github.com/radanalyticsio/oshinko-cli/rest/models"
+	"github.com/dagdafrench/testing_osh_cli/rest/models"
 )
 
 /*DeleteSingleClusterNoContent Cluster deletion response

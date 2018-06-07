@@ -5,14 +5,14 @@ import (
 	"github.com/openshift/origin/pkg/cmd/flagtypes"
 	ktemplates "k8s.io/kubernetes/pkg/kubectl/cmd/templates"
 	"github.com/openshift/origin/pkg/oc/cli/util/clientcmd"
-	"github.com/radanalyticsio/oshinko-cli/pkg/cmd/cli/cmd"
+	"github.com/dagdafrench/testing_osh_cli/pkg/cmd/cli/cmd"
 	"github.com/spf13/cobra"
 	"io"
 	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
 	"os"
 	"runtime"
 	"strings"
-	oshinkocmd "github.com/radanalyticsio/oshinko-cli/pkg/cmd/cli/cmd"
+	oshinkocmd "github.com/dagdafrench/testing_osh_cli/pkg/cmd/cli/cmd"
 )
 
 const (

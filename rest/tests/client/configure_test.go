@@ -18,9 +18,9 @@ import (
 	flags "github.com/jessevdk/go-flags"
 	check "gopkg.in/check.v1"
 
-	"github.com/radanalyticsio/oshinko-cli/rest/client"
-	"github.com/radanalyticsio/oshinko-cli/rest/restapi"
-	"github.com/radanalyticsio/oshinko-cli/rest/restapi/operations"
+	"github.com/dagdafrench/testing_osh_cli/rest/client"
+	"github.com/dagdafrench/testing_osh_cli/rest/restapi"
+	"github.com/dagdafrench/testing_osh_cli/rest/restapi/operations"
 )
 
 // Test connects gocheck to the "go test" runner

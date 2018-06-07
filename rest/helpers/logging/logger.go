@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/radanalyticsio/oshinko-cli/rest/helpers/flags"
+	"github.com/dagdafrench/testing_osh_cli/rest/helpers/flags"
 )
 
 var logger *log.Logger

@@ -7,9 +7,9 @@ import (
 
 	check "gopkg.in/check.v1"
 
-	"github.com/radanalyticsio/oshinko-cli/rest/client/clusters"
-	"github.com/radanalyticsio/oshinko-cli/rest/helpers/errors"
-	"github.com/radanalyticsio/oshinko-cli/rest/models"
+	"github.com/dagdafrench/testing_osh_cli/rest/client/clusters"
+	"github.com/dagdafrench/testing_osh_cli/rest/helpers/errors"
+	"github.com/dagdafrench/testing_osh_cli/rest/models"
 )
 
 type lessThanChecker struct {

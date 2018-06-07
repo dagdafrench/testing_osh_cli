@@ -21,7 +21,7 @@ package externalversions
 
 import (
 	"fmt"
-	v1 "github.com/radanalyticsio/oshinko-cli/pkg/apis/radanalytics.io/v1"
+	v1 "github.com/dagdafrench/testing_osh_cli/pkg/apis/radanalytics.io/v1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

@@ -19,7 +19,7 @@ package versioned
 
 import (
 	glog "github.com/golang/glog"
-	radanalyticsv1 "github.com/radanalyticsio/oshinko-cli/pkg/client/clientset/versioned/typed/radanalytics.io/v1"
+	radanalyticsv1 "github.com/dagdafrench/testing_osh_cli/pkg/client/clientset/versioned/typed/radanalytics.io/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

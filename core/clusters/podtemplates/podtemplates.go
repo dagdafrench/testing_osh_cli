@@ -1,7 +1,7 @@
 package podtemplates
 
 import (
-	"github.com/radanalyticsio/oshinko-cli/core/clusters/containers"
+	"github.com/dagdafrench/testing_osh_cli/core/clusters/containers"
 	kapi "k8s.io/api/core/v1"
 )
 
