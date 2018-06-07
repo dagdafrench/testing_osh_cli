@@ -26,7 +26,7 @@ node('master') {
 				// wipeout workspace
 				deleteDir()
 
-				dir('src/github.com/radanalyticsio/oshinko-cli') {
+				dir('src/github.com/dagdafrench/testing_osh_cli') {
 					checkout scm
 				}
 
@@ -44,7 +44,7 @@ node('master') {
 				}
 
 				// build
-				dir('src/github.com/radanalyticsio/oshinko-cli') {
+				dir('src/github.com/dagdafrench/testing_osh_cli') {
 					sh('make build | tee -a build.log && exit ${PIPESTATUS[0]}')
 				}
 			} catch (err) {
@@ -55,7 +55,7 @@ node('master') {
 				}
 				throw err
 			} finally {
-				dir('src/github.com/radanalyticsio/oshinko-cli') {
+				dir('src/github.com/dagdafrench/testing_osh_cli') {
 					archiveArtifacts(allowEmptyArchive: true, artifacts: 'build.log')
 				}
 			}
@@ -74,7 +74,7 @@ node('master') {
 				sh('oc project testsuite')
 
 				// run tests
-				dir('src/github.com/radanalyticsio/oshinko-cli') {
+				dir('src/github.com/dagdafrench/testing_osh_cli') {
 					sh('./test/run.sh | tee -a test.log && exit ${PIPESTATUS[0]}')
 				}
 			} catch (err) {
@@ -85,7 +85,7 @@ node('master') {
 				}
 				throw err
 			} finally {
-				dir('src/github.com/radanalyticsio/oshinko-cli') {
+				dir('src/github.com/dagdafrench/testing_osh_cli') {
 					archiveArtifacts(allowEmptyArchive: true, artifacts: 'test.log')
 				}
 			}
